@@ -5,8 +5,6 @@ using namespace std;
 
 int main()
 {
-    while(true)
-    {
         ofstream temp;
         temp.open("temp.txt");
         temp << "";
@@ -17,7 +15,6 @@ int main()
         output.close();
         sender();
         receiver();
-    }
 
     //cout<<"\nalu";
     return 0;
